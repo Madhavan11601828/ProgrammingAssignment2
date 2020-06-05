@@ -13,8 +13,8 @@ makeCacheMatrix <- function(x = matrix()) { ## defined function with the argumen
   
   setinverse <- function(inverse) inv <<- inverse  ## in parental environment, assign the value of inv
   getinverse <- function() inv                     ## gets the value of inv where called
-  list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)  ## you need this in order to refer 
-  ## to the functions with the $ operator
+  list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)  ## for refering purpose this will be needed, thefunction with operator, $ 
+ 
 }
 
 
