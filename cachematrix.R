@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) { ## defined function with the argumen
 }
 
 
-## This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
+## The following function includes ywo major steps while computing the inverse of the "matrix" by using function "makeCacheMatrix" as mentioned above.
 ## If the inverse has already been calculated (and the matrix has not changed),
 ## then cacheSolve will retrieve the inverse from the cache
 
